@@ -7,11 +7,12 @@
     },
     {
       "src": "./client/package.json",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
     }
   ],
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/server/index.js" },
-    { "source": "/(.*)", "destination": "/client/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
