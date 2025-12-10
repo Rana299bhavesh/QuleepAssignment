@@ -2,7 +2,7 @@
 const config = {
 
   API_URL: import.meta.env.PROD 
-    ? "https://quleepassignment.onrender.com/api"  
+    ? "api"
     : "http://localhost:5000/api"
 };
 
