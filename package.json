@@ -4,5 +4,7 @@
   "scripts": {
     "build": "cd client && npm install && npm run build && cd ../server && npm install"
   },
-  "dependencies": {}
+  "dependencies": {
+    "meta": "^2.2.25"
+  }
 }
